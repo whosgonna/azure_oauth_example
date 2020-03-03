@@ -1,5 +1,13 @@
-creds:
-    resource1:
-        user: username
-        pass: S33kr!t
+## Tenant should have an entry in the tenant_id further down in this config file.
+tenant: altialpha
 
+csp:
+    scope: .default
+    secret_id: 1337a28a-bde3-4d73-931c-1ba3674f490f
+    tenant_id: 193c78ec-9024-4d21-97ef-d0af9e31f4de
+    client_id: f4f1f2ba-f552-4db5-bdcb-2e91e8d6a6af
+
+tenant_ids:
+    altialpha: f7be7005-11a9-4b49-be34-8e66bebff59b
+    altibeta: efb9b199-39fe-447a-85ad-dccaee2a1451
+    altigamma: f606bf41-0731-49a7-af58-91194f537c42
