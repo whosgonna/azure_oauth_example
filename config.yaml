@@ -1,0 +1,5 @@
+log:
+    #file:  /tmp/log.log;
+    appender: Screen
+    level:    DEBUG
+

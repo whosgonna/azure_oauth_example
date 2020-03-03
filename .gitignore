@@ -1,0 +1,5 @@
+local_config*
+*.swp
+*.log
+!local_config.yaml.dist
+
